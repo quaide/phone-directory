@@ -30,7 +30,6 @@ public class Main {
                 phone = reader.next();
                 Contact newContact = new Contact(first, last, phone);
                 directory.addContact(newContact);
-
             } else if (selection.equals("2")) {
                 System.out.println("Enter the phone number of the contact you want to update: ");
                 phone = reader.next();
