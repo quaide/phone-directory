@@ -22,11 +22,11 @@ public class Main {
             selection = reader.next();
 
             if (selection.equals("1")) {
-                System.out.println("Enter a new first name: ");
+                System.out.println("Enter the first name of the new contact: ");
                 first = reader.next();
-                System.out.println("Enter a new last name: ");
+                System.out.println("Enter the last name of the new contact: ");
                 last = reader.next();
-                System.out.println("Enter a new phone number: ");
+                System.out.println("Enter the phone number of the new contact: ");
                 phone = reader.next();
                 Contact newContact = new Contact(first, last, phone);
                 directory.addContact(newContact);
